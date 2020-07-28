@@ -6,7 +6,7 @@ const cors = require('cors')
 
 
 const app = express()
-const port = process.env.PORT || 80
+const port = process.env.PORT 
 
 app.use(bodyParser.urlencoded({extend: true}))
 app.use(cors())
